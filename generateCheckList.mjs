@@ -1,5 +1,5 @@
 'use strict';
-import {writeFileSync} from 'node:fs'
+import { writeFileSync } from 'node:fs';
 const checkList = [];
 for (let y = 1; y <= 9; y++)
 {
@@ -31,7 +31,7 @@ for (let y = 1; y <= 9; y++)
 		checkList.push(indexes);
 	}
 }
-writeFileSync('checkList.json', JSON.stringify(checkList))
+writeFileSync('checkList.json', JSON.stringify(checkList));
 
 function xyToIndex(x, y)
 {
