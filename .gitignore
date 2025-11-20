@@ -1,0 +1,9 @@
+*.swp
+*.*~
+*.swo
+/ssl
+/tmp
+/.vscode
+/node_modules
+/docker
+test*
